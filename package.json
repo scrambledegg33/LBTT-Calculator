@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "This is a stamp duty calculator. further instructions to be added.",
   "main": "LBBT-calculator.js",
-  "directories": {
-    "test": "jest"
-  },
   "scripts": {
     "test": "jest"
   },

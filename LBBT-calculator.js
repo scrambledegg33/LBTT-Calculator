@@ -24,19 +24,18 @@ function stampCalc(houseCost) {
     if (houseCost >= 0) {
         for (let i = 0; i < standBuyerRates.length; i++) {
             let taxableSum = calTaxSum(houseCost, i);
-            if (taxableSum === 0) {
-                return "there is no tax to be paid."
-            } 
-            else {
+            
                 let tax = calTax(taxableSum, standBuyerRates[i]);
                 if (tax > 0){
                     totalTax += tax;
                 }
-            }
+            
         }
     }
     return totalTax;
 };
 
 
-console.log(stampCalc(900000));
+console.log(stampCalc(200000));
+
+module.exports = stampCalc;
