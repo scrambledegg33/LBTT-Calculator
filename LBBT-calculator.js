@@ -38,4 +38,4 @@ function stampCalc(houseCost) {
 
 console.log(stampCalc(200000));
 
-module.exports = stampCalc;
+module.exports = {calTaxSum, calTax, stampCalc};
