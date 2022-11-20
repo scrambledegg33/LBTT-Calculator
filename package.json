@@ -1,0 +1,25 @@
+{
+  "name": "lbtt-calculator",
+  "version": "1.0.0",
+  "description": "This is a stamp duty calculator. further instructions to be added.",
+  "main": "LBBT-calculator.js",
+  "directories": {
+    "test": "jest"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scrambledegg33/LBTT-calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scrambledegg33/LBTT-calculator/issues"
+  },
+  "homepage": "https://github.com/scrambledegg33/LBTT-calculator#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
