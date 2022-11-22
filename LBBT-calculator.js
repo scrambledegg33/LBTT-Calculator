@@ -19,7 +19,7 @@ function calTax(taxableSum, percentage) {
 }
 
 
-function stampCalc(houseCost) {
+function LBBTCalc(houseCost) {
     let totalTax = 0;
     if (houseCost >= 0) {
         for (let i = 0; i < standBuyerRates.length; i++) {
@@ -36,6 +36,7 @@ function stampCalc(houseCost) {
 };
 
 
-console.log(stampCalc(200000));
-
-module.exports = {calTaxSum, calTax, stampCalc};
+//console.log(LBBTCalc(200000));
+console.log(calTaxSum(170000, 0));
+//console.log(calTax(55000, 0.02));
+module.exports = {calTaxSum, calTax, LBBTCalc};
